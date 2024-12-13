@@ -120,6 +120,8 @@ btn = document.getElementById("btn");
 if(gameOver){
 
     gameOver = false;
+
+    score.innerText = "0";
 }
 
  }))
