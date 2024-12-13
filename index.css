@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+   height: 100%;
+   width: 100%;
+   
+   background-image: url("asets/mario-bg.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#board{
+   width: 100%;
+  max-height: 80%;
+
+   background-color: green;
+
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+   
+   background-image: url("asets/soil.png");
+   background-size: cover;
+   border: 2px solid white;
+   border-radius: 25px;
+  
+}
+
+
+
+#board div{
+   height: 80px;
+   width: 110px;
+   background-image: url("asets/pipe.png");
+   background-size: cover;
+}
+
+
+
+
+#board div img{
+   height: 60px;
+   width: 60px;
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+button{
+   width: 100px;
+   height: 40px;
+   background-color: rgb(80, 158, 180);
+   border-top-left-radius: 30px;
+   border: none;
+   margin-bottom: 10px;
+   color: white;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+
+
+@media (min-width:1024px) {
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("asets/mario-bg.jpg");
+    background-size: cover;
+    padding: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+
+
+
+#board div{
+   height: 180px;
+   width: 180px;
+   background-image: url("asets/pipe.png");
+   background-size: cover;
+}
+
+    
+
+
+
+ #board{
+    width: 580px;
+    height: 540px;
+    background-color: green;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-image: url("asets/soil.png");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 25px;
+   
+ }
+
+ #board div{
+    height: 180px;
+    width: 180px;
+    background-image: url("asets/pipe.png");
+    background-size: cover;
+ }
+
+ #board div img{
+    height: 100px;
+    width: 100px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+ }
+ button{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(80, 158, 180);
+    border-top-left-radius: 30px;
+    border: none;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+ }
+}
