@@ -121,7 +121,7 @@ if(gameOver){
 
     gameOver = false;
 
-    score.innerText = "0";
+   score = 0;
 }
 
  }))
